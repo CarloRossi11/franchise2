@@ -1,3 +1,27 @@
 *{
   box-sizing: border-box;
 }
+
+.nav-link{
+  font-weight: bold;
+  font-size: 1.25em;
+  color: black !important;
+}
+
+.hero{
+  background-image: url(design-assets/hero.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-bar{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: white;
+  padding-left: 30px;
+
+}
