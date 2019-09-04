@@ -14,6 +14,7 @@
 }
 
 .nav-link{
+  display: inline;
   font-weight: bold;
   font-size: 1.1em;
   color: black !important;
@@ -43,7 +44,7 @@
   padding-right: 75px;
 }
 .checka{
-  padding-left: 120px;
+  padding-left: 0px;
   color: white;
 }
 
@@ -64,6 +65,10 @@
 .TBAJ{
   padding-left: 100px;
   padding-top: 100px;
+}
+
+.sometxt{
+  font-size: 20px;
 }
 
 .bookem{
