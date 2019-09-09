@@ -88,3 +88,57 @@
   color: black;
   font-size: 20px;
 }
+
+.wave{
+  padding-top: 60px;
+}
+
+.listed{
+  font-size: 30px;
+}
+
+.RAQ{
+  background-color: black !important;
+  border-color: black !important;
+  color: white !important;
+  line-height: 2.75;
+  padding: 0 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.ig-rel{
+  position: relative;
+}
+
+.ig-abs{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 60px;
+}
+
+.insta{
+  padding-top: 50px;
+}
+
+.toprated{
+  padding-top: 75px;
+}
+
+.see{
+  font-size: 35px;
+}
+
+.bunchapics{
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
+
+.junkweremove{
+  padding-top: 50px;
+  padding-left: 75px;
+  padding-bottom: 50px;
+}
