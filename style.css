@@ -142,3 +142,60 @@
   padding-left: 75px;
   padding-bottom: 50px;
 }
+
+.cactus{
+  color: black;
+}
+
+.RAQ2{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.listed{
+  padding-left: 50px;
+}
+
+.listedl{
+  padding-left: 100px;
+}
+
+.whybeach{
+  padding-bottom: 50px;
+}
+.why{
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.welldo{
+  font-size: 25px;
+}
+
+.beach{
+  padding-right: 50px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}
+.footerimg{
+  padding-top: 50px;
+}
+.done{
+  color: white;
+  font-weight: lighter;
+  font-size: 75%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.topfooter{
+font-size: 25px;
+}
+
+#menu{
+  padding-left: 0px !important;
+}
