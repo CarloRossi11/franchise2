@@ -1,171 +1,175 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel= "stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel= "stylesheet" href="style.css">
 
-    <title>G.I. Haul</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand" href="#">
-<img width="200px"src="design-assets/gihaul--logo.png" alt="gihaul">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse text-right" id="navbarNav">
-    <p class="above">Call 1-855-8GI-HAUL</p>
-    <ul class="navbar-nav ml-auto pr-5">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">How it Works <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Reviews</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Book Now</a>
-      </li>
+  <title>G.I. Haul</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">
+      <img width="200px" src="design-assets/gihaul--logo.png" alt="gihaul">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="ml-auto mr-5">
+      <div class="above d-block">
+        <p class="">Call 1-855-8GI-HAUL</p>
+      </div>
+      <div class="" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">How it Works <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Book Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class=" container-fluid hero">
+    <div class="row hero-bar">
+      <div class="col-4">
+        <img src="design-assets/location.png" width="20px" alt="">
+        <i>TAMPA, FL.</i>
+      </div>
+      <div class="col-8 hero-bar2">
+        <!-- display on md and above-->
+        <div class="checka d-md-inline d-none p-0" href="#"><i>CHECK AVAILABILITY</i></div>
+        <form class="form-inline my-2 my-lg-0 ntrzip checka d-md-block d-none">
+          <input class="form-control mr-sm-2" type="search" placeholder="Enter your Zipcode" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 go" type="button" data-toggle="modal" data-target="#smallModal">GO</button>
+        </form>
+        <!-- display from xs to med-->
+        <div class="d-md-none">
+          <a href="tel:18558444285"> 1-855-8GIHAUL</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Check Availability</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="" action="index.html" method="post">
+            <div class="form-group">
+              <label for="smallName">Your Name</label>
+              <input class="form-control" type="text" id="smallName">
+            </div>
+            <div class="form-group">
+              <label for="smallEmail">Your Email</label>
+              <input class="form-control" type="text" id="smallEmail">
+            </div>
+
+            <div class="row">
+              <div class="col form-group">
+                <label for="smallPhone">Your Phone Number</label>
+                <input class="form-control" type="number" id="smallPhone">
+              </div>
+              <div class="col form-group">
+                <label for="smallZIP">Your Zip Code</label>
+                <input class="form-control" type="number" id="smallZIP">
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-row-reverse justify-context-md-center">
+    <div class="col-4">
+      <div class="book-img">
+        <img class="m-3"height="400px"src="design-assets/junk.jpg" alt="junk">
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="book-text m-3 TBAJ">
+        <h1 class=""><b><i>Tampa Bay Area Junk Removal</i></b></h1>
+        <p class="sometxt">Whether it's residential or commercial, <br> we're happy to remove your trash so you dont have to!</p>
+        <a class="btn btn-lg bookem" href="">BOOK NOW</a>
+        <a class="btn btn-lg itemsweremove" href=""><u>ITEMS WE REMOVE</u></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center wave">
+    <img width="120px"src="design-assets/veteran-owned--black.png" alt="">
+  </div>
+
+  <div class="row d-flex justify-content-center text-center">
+    <ul style="list-style-type:none; padding-inline-start: 0px">
+      <li><h1><b><i>G.I. HAUL</i> is ready to service your junk removal <br>needs in the tampa bay area today!</b></h1></li>
+      <li><p class="listed">We're Veteran Owned & Operated.</p></li>
+      <li><p class="listed">We'll Pick Up Just About Any Junk.</p></li>
+      <li><p class="listed">We'll Beat Any Junk Removal Estimate.</p></li>
+      <li><button type="button" class="btn btn-dark RAQ">REQUEST A QUOTE</button></li>
     </ul>
   </div>
-</nav>
 
-<div class=" container-fluid hero">
-<div class="row hero-bar">
-  <div class="col-4">
-  <img src="design-assets/location.png" width="20px" alt="">
-<i>TAMPA, FL.</i>
-</div>
-<div class="col-8 hero-bar2">
-  <!-- display on md and above-->
-  <div class="checka d-md-inline d-none p-0" href="#"><i>CHECK AVAILABILITY</i></div>
-  <form class="form-inline my-2 my-lg-0 ntrzip checka d-md-block d-none">
-      <input class="form-control mr-sm-2" type="search" placeholder="Enter your Zipcode" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0 go" type="button" data-toggle="modal" data-target="#smallModal">GO</button>
-    </form>
-    <!-- display from xs to med-->
-    <div class="d-md-none">
-      <a href="tel:18558444285"> 1-855-8GIHAUL</a>
-    </div>
-</div>
-</div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Check Availability</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="insta container-fluid">
+    <div class="row">
+      <div class="col ig-rel px-0 mr-1">
+        <img width="100%"src="design-assets/ig-1.jpg" alt="insta1">
+        <div class="ig-abs">
+          <img width="100%"src="design-assets/ig-logo.png" alt="">
+        </div>
       </div>
-      <div class="modal-body">
-        <form class="" action="index.html" method="post">
-          <div class="form-group">
-            <label for="smallName">Your Name</label>
-            <input class="form-control" type="text" id="smallName">
-          </div>
-          <div class="form-group">
-            <label for="smallEmail">Your Email</label>
-            <input class="form-control" type="text" id="smallEmail">
-          </div>
-
-          <div class="row">
-            <div class="col form-group">
-              <label for="smallPhone">Your Phone Number</label>
-              <input class="form-control" type="number" id="smallPhone">
-            </div>
-            <div class="col form-group">
-              <label for="smallZIP">Your Zip Code</label>
-              <input class="form-control" type="number" id="smallZIP">
-            </div>
-          </div>
-
-
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
-
+      <div class="col ig-rel px-0 ml-1">
+        <img width="100%"src="design-assets/ig-2.jpg" alt="insta2">
+        <div class="ig-abs">
+          <img width="100%"src="design-assets/ig-logo.png" alt="">
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="d-md-flex flex-md-row-reverse justify-context-md-center">
-  <div class="col-4">
-    <div class="book-img">
-      <img class="m-3"height="400px"src="design-assets/junk.jpg" alt="junk">
+  <div class="toprated text-center">
+    <h1><b><i>TOP RATED JUNK REMOVAL</i></b></h1>
+    <p class="see">See what our customers say about us</p>
+  </div>
+
+  <div class="row bunchapics">
+    <div class="col-4 d-flex justify-content-center">
+      <img width="75%" src="design-assets/google.png" alt="">
+    </div>
+    <div class="col-4 d-flex justify-content-center">
+      <img width="25%" src="design-assets/home-advisor.png" alt="">
+    </div>
+    <div class="col-4 d-flex justify-content-center">
+      <img width="75%" src="design-assets/facebook.png" alt="">
     </div>
   </div>
-  <div class="col-8">
-    <div class="book-text m-3 TBAJ">
-      <h1 class=""><b><i>Tampa Bay Area Junk Removal</i></b></h1>
-      <p class="sometxt">Whether it's residential or commercial, <br> we're happy to remove your trash so you dont have to!</p>
-      <a class="btn btn-lg bookem" href="">BOOK NOW</a>
-      <a class="btn btn-lg itemsweremove" href=""><u>ITEMS WE REMOVE</u></a>
-    </div>
+
+  <div class="junkweremove">
+    <h1><i><b>Junk we remove</b></i></h1>
   </div>
-</div>
-
-<div class="row d-flex justify-content-center wave">
-  <img width="120px"src="design-assets/veteran-owned--black.png" alt="">
-</div>
-
-<div class="row d-flex justify-content-center text-center">
-<ul style="list-style-type:none; padding-inline-start: 0px">
-<li><h1><b><i>G.I. HAUL</i> is ready to service your junk removal <br>needs in the tampa bay area today!</b></h1></li>
-<li><p class="listed">We're Veteran Owned & Operated.</p></li>
-<li><p class="listed">We'll Pick Up Just About Any Junk.</p></li>
-<li><p class="listed">We'll Beat Any Junk Removal Estimate.</p></li>
-<li><button type="button" class="btn btn-dark RAQ">REQUEST A QUOTE</button></li>
-</ul>
-</div>
-
-<div class="insta container-fluid">
-  <div class="row">
-    <div class="col ig-rel px-0 mr-1">
-      <img width="100%"src="design-assets/ig-1.jpg" alt="insta1">
-      <div class="ig-abs">
-        <img width="100%"src="design-assets/ig-logo.png" alt="">
-      </div>
-    </div>
-    <div class="col ig-rel px-0 ml-1">
-      <img width="100%"src="design-assets/ig-2.jpg" alt="insta2">
-      <div class="ig-abs">
-        <img width="100%"src="design-assets/ig-logo.png" alt="">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="toprated text-center">
-  <h1><b><i>TOP RATED JUNK REMOVAL</i></b></h1>
-  <p class="see">See what our customers say about us</p>
-</div>
-
-<div class="row bunchapics">
-  <div class="col-4 d-flex justify-content-center">
-    <img width="75%" src="design-assets/google.png" alt="">
-  </div>
-  <div class="col-4 d-flex justify-content-center">
-    <img width="25%" src="design-assets/home-advisor.png" alt="">
-  </div>
-  <div class="col-4 d-flex justify-content-center">
-    <img width="75%" src="design-assets/facebook.png" alt="">
-  </div>
-</div>
-
-<div class="junkweremove">
-  <h1><i><b>Junk we remove</b></i></h1>
-</div>
 
   <div class="listed">
     Whether it's commerical or residential, we're happy to remove <br> your trash so you don't have to!
@@ -185,9 +189,9 @@
       <li>contractor garbage and waste removal</li>
       <li>Don't see your item on our list? <a href="tel:18558444285" class="cactus"> <u>Contact us</u>.</a></li>
     </ul>
-      <div class="justify-content-center text-center RAQ2">
-        <button type="button" class="btn btn-dark RAQ">REQUEST A QUOTE</button>
-      </div>
+    <div class="justify-content-center text-center RAQ2">
+      <button type="button" class="btn btn-dark RAQ">REQUEST A QUOTE</button>
+    </div>
   </div>
 
   <div class="row whybeach">
@@ -202,65 +206,65 @@
   </div>
 
   <div class="footer">
-    <div class="d-flex justify-content-center">
+    <div class=" foothead d-flex justify-content-center">
       <h1><b><i>Tampa Bay Area Junk Removal</i></b></h1>
     </div>
     <div class="d-flex justify-content-center">
       <style>
-      ul#menu li {
-        display:inline;
-      }
-      a:hover {
-        color: grey;
-      }
-    </style>
-    <ul id="menu">
-      <li><a class="done topfooter" href="#">How it Works</a></li>
-      <li><a class="done topfooter" href="#">Junk Reviews</a></li>
-      <li><a class="done topfooter" href="#">Book Now</a></li>
-    </ul>
+        ul#menu li {
+          display:inline;
+        }
+        a:hover {
+          color: grey;
+        }
+      </style>
+      <ul id="menu">
+        <li><a class="done topfooter" href="#">How it Works</a></li>
+        <li><a class="done topfooter" href="#">Junk Reviews</a></li>
+        <li><a class="done topfooter" href="#">Book Now</a></li>
+      </ul>
     </div>
     <div class="d-flex justify-content-center footerimg">
-    <img class="" src="design-assets/gihaul-logo--footer.jpg" alt="">
+      <img class="" width="200px" src="design-assets/gihaul-logo--footer.jpg" alt="">
     </div>
     <h1 class="d-flex justify-content-center">Call 1-855-8GI-HAUL</h1>
     <div class="d-flex justify-content-center">
       <style>
-      ul#menu li {
-        display:inline;
-      }
-      a:hover {
-        color: grey;
-      }
-    </style>
-    <ul id="menu">
-      <li><a class="done" href="#">Franchise Opportunities</a></li>
-      <li><a class="done" href="#">Terms of Service</a></li>
-      <li><a class="done" href="#">Privacy Policy</a></li>
-    </ul>
+        ul#menu li {
+          display:inline;
+        }
+        a:hover {
+          color: grey;
+        }
+      </style>
+      <ul id="menu">
+        <li><a class="done btmfooter" href="#">Franchise Opportunities</a></li>
+        <li><a class="done btmfooter" href="#">Terms of Service</a></li>
+        <li><a class="done btmfooter" href="#">Privacy Policy</a></li>
+      </ul>
     </div>
   </div>
 
-<!--<div class="row">
+  <!--<div class="row">
   <div class="col-8">
-    <div class="TBAJ">
-      <h1 class=""><b><i>Tampa Bay Area Junk Removal</i></b></h1>
-      <p class="sometxt">Whether it's residential or commercial, <br> we're happy to remove your trash so you dont have to!</p>
-      <button type="button" class="btn btn-primary bookem">BOOK NOW</button>
-      <a class="itemsweremove"href="#"> <u>ITEMS WE REMOVE</u></a>
-    </div>
-  </div>
-  <div class="col-4">
-    <img class="junk" src="design-assets/junk.jpg" alt="">
-  </div>
+  <div class="TBAJ">
+  <h1 class=""><b><i>Tampa Bay Area Junk Removal</i></b></h1>
+  <p class="sometxt">Whether it's residential or commercial, <br> we're happy to remove your trash so you dont have to!</p>
+  <button type="button" class="btn btn-primary bookem">BOOK NOW</button>
+  <a class="itemsweremove"href="#"> <u>ITEMS WE REMOVE</u></a>
+</div>
+</div>
+<div class="col-4">
+<img class="junk" src="design-assets/junk.jpg" alt="">
+</div>
 
 </div> -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
 </html>
