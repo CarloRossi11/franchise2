@@ -25,6 +25,8 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  background-size: cover;
+
 }
 
 .hero-bar{
@@ -208,4 +210,11 @@ font-weight: 300;
 
 #menu{
   padding-left: 0px !important;
+}
+
+.tagged{
+  text-align: end;
+  background-color: black;
+  color: pink;
+  padding-right: 10px;
 }
